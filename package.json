@@ -1,16 +1,23 @@
 {
   "name": "node-pg-csv",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A simple Node.js script that exports data from a PostgreSQL database into a CSV file using streaming and cursors.",
   "type": "module",
   "scripts": {
     "export-csv": "node --no-warnings --env-file .env src/export-csv.ts",
     "seed-db": "node --no-warnings --env-file .env src/db/seed.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "nodejs",
+    "docker",
+    "typescript",
+    "stream",
+    "pipeline",
+    "postgresql",
+    "csv-export"
+  ],
+  "author": "vWernay",
+  "license": "MIT",
   "packageManager": "pnpm@10.8.1",
   "devDependencies": {
     "@faker-js/faker": "^9.7.0",
