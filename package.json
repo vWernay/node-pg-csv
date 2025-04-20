@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "export-csv": "node --no-warnings --env-file .env src/export-csv.ts",
+    "seed-db": "node --no-warnings --env-file .env src/db/seed.ts"
   },
   "keywords": [],
   "author": "",
